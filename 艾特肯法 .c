@@ -2,20 +2,20 @@
 #include<math.h> 
 main()
 {
-	printf("\n\nÇëÔÚÔ´´úÂëµÚ16ĞĞ´¦ÊäÈëÄúËùĞèÒªµü´úµÄ¹«Ê½£¬ÆäÖĞÎ´ÖªÁ¿ÓÃx±íÊ¾\n");
+	printf("\n\nè¯·åœ¨æºä»£ç ç¬¬16è¡Œå¤„è¾“å…¥æ‚¨æ‰€éœ€è¦è¿­ä»£çš„å…¬å¼ï¼Œå…¶ä¸­æœªçŸ¥é‡ç”¨xè¡¨ç¤º\n");
 	printf("If you did,continue  please\n");
 	getchar();
 	double   x;
 	int n;
-	printf("ÊäÈëÄúËùÆÚÍûµÄµü´ú´ÎÊı\n");
+	printf("è¾“å…¥æ‚¨æ‰€æœŸæœ›çš„è¿­ä»£æ¬¡æ•°\n");
 	scanf("%d",&n);
 	double   resualt;
-	printf("ÇëÊäÈë³õÊ¼Öµ\n"); 
+	printf("è¯·è¾“å…¥åˆå§‹å€¼\n"); 
 	scanf("%lf",&x);
 	int i,j;
 	double X, Y,Z;
 	X=x;
-	for(j=0;j<n;j++)///ÇóÎå´Îµü´ú 
+	for(j=0;j<n;j++)///æ±‚äº”æ¬¡è¿­ä»£ 
 	{	
 		for(i=0;i<2;i++) 
 		{
@@ -32,7 +32,7 @@ main()
 				 	printf("Z==%lf\n\n",resualt);
 				 	Z=resualt;
 				 }
-		}//Ğ¡Ñ­»· 
+		}//å°å¾ªç¯ 
 		
 		 X=((X*Z-Y*Y)/(X-2*Y+Z));
 		 x=X;
